@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tytulElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tytuł"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gatunekElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gatunek" />
+
+    <TextView
+        android:id="@+id/recenzjaElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recenzja" />
+
+    <TextView
+        android:id="@+id/ocenaElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocena" />
+
+    <TextView
+        android:id="@+id/typElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Typ" />
+
+    <CheckBox
+        android:id="@+id/obejrzaneCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obejrzane / Przeczytane" />
+</LinearLayout>
