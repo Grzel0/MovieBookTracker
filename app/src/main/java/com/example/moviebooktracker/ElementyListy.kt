@@ -1,6 +1,6 @@
 package com.example.moviebooktracker
 
-data class ElementyListy(
+data class ElementListy(
     val tytul: String,
     val gatunek: String,
     val recenzja: String,
