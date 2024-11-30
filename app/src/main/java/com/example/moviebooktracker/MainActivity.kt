@@ -43,6 +43,23 @@ class MainActivity : AppCompatActivity() {
             val wybranyTyp = findViewById<RadioButton>(
                 typGroup.checkedRadioButtonId
             )?.text?.toString() ?: "Nieznany"
+
+        val nowyElement = ElementListy(
+            tytul = tytul.text.toString(),
+            gatunek = gatunek.text.toString(),
+            recenzja = recenzja.text.toString(),
+            ocena = ocena.progress,
+            typ = wybranyTyp
+        )
+
+        lista.add(nowyElement)
+        adapter.notifyDataSetChanged()
+
+        tytul.text.clear()
+        gatunek.text.clear()
+        recenzja.text.clear()
+        ocena.progress = 0
+        typGroup.clearCheck()
         }
     }
 }
